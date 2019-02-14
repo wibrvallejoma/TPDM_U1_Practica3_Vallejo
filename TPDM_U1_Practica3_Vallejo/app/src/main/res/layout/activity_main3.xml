@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="6"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:text="TOOTH APPS"
+        android:textSize  ="48dp"
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:text="FOR KIDS!"
+        android:textStyle="bold"
+        android:textSize="48dp"
+        android:layout_columnSpan="2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_1"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_2"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_3"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_4"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_5"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_6"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_7"
+        android:layout_margin="10dp"
+        />
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:src="@drawable/diente_8"
+        android:layout_margin="10dp"
+        />
+
+</GridLayout>

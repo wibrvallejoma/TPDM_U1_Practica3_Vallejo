@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#E65556">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:src="@drawable/libro"
+        android:layout_marginVertical="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to Learn a"
+        android:textSize="48dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textColor="#E1CDD6"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="64dp"
+        android:text="LANGUAGE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#F6F4F4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="by yourself"
+        android:textAlignment="center"
+        android:textSize="48dp"
+        android:fontFamily="cursive"
+        android:textColor="#E1CDD6"
+        android:layout_marginBottom="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.ittepic.edu.mx"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#E1CDD6"
+        />
+</LinearLayout>
